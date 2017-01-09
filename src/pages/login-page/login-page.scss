@@ -1,27 +1,10 @@
 page-login-page {
-	div .topo{
-		display: block;
-	}
-	div .footer{
-		display: block;
-	}
-	div .footer{
-		margin-top: 100px;
-		float: 60px;
-	}
-
-	div .topo{
-		margin-top: 150px;
-		left: 50px;
-	}
-
-	div .images{
-		display: block;
-	}
-
-	div .images{
-		margin-bottom: 85px;
-		left: 800px;
-	}
+    div .body{
+        display: block;
+        position: relative;
+    }
+    div .body{
+        margin-bottom: 100px;
+    }
 }
 
