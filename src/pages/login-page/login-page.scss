@@ -1,58 +1,27 @@
 page-login-page {
+	div .topo{
+		display: block;
+	}
+	div .footer{
+		display: block;
+	}
+	div .footer{
+		margin-top: 100px;
+		float: 60px;
+	}
 
-div.logo{
-    width: 100%;
-    left:50%;
-    top:100%;
-    margin-bottom: 500px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    content: url('../img/logo.png');
-}
-ion-col.images{
-    bottom: 500px;
-}
+	div .topo{
+		margin-top: 150px;
+		left: 50px;
+	}
 
-}
+	div .images{
+		display: block;
+	}
 
-/*
-
-
-.check-ticket-modal{
-
-				.win{
-					background-color: #049372;
-					h1{
-						color: #fff;
-					}
-					button{
-						color: #fff;
-					}
-				}
-				.lose{
-					background-color: $assertive;
-				}
-				.open{
-					background-color: #666;
-					h1{
-						color: #fff;
-					}
-					button{
-						color: #fff;
-					}
-				}
-				.partial{
-					background-color: #F5D76E;
-				}
-				.canceled{
-					background-color: black;
-					h1{
-						color: #fff;
-					}
-					button{
-						color: #fff;
-					}
-				}
+	div .images{
+		margin-bottom: 85px;
+		left: 800px;
+	}
 }
 
-*/

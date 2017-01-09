@@ -1,26 +1,27 @@
 <ion-content>
   <div class="topo">
-     <ion-row class="images">
-       <ion-col>
-         <img src="assets/images/login.png" />
-       </ion-col>
-     </ion-row>
-     <ion-item>
-       <ion-label>Código do Bilhete</ion-label>
-     </ion-item>
-     <ion-input></ion-input>
-  </div>
+      <ion-row>
+        <ion-col class="images">
+          <img src="assets/images/login.png" />
+        </ion-col>
+      </ion-row>
+      <ion-item>
+        <ion-input placeholder="Digite o código do cupom"></ion-input>
+      </ion-item>
+   </div>
+ 
   <div class="low">
-    <button full ion-button icon-right>
+    <button full ion-button icon-right color="dark">
       Captura com a camera
     <ion-icon name="camera"></ion-icon>
     </button>
-    <button full ion-button icon-right>
+    <button full ion-button icon-right color="dark"> 
       Consulta aposta
     <ion-icon name="md-checkmark"></ion-icon>
     </button>
-    <ion-footer>
-      <ion-title>Entra como campista</ion-title>
-    </ion-footer>
+    
+    <div class="footer">
+      <button full ion-button color="dark">Entra como Campista</button>
+    </div>
   </div>
 </ion-content>
