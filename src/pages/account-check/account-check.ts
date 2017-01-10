@@ -3,6 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 
 import { AccountLoginPage } from '../account-login/account-login';
 
+
 @Component({
   selector: 'account-check',
   templateUrl: 'account-check.html'

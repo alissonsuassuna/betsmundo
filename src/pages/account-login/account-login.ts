@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import { AccountCheckPage } from '../pages/account-check/account-check';
+import { AccountCheckPage } from '../account-check/account-check';
+
 /*
   Generated class for the AccountLogin page.
 
@@ -9,15 +10,16 @@ import { AccountCheckPage } from '../pages/account-check/account-check';
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'page-account-login',
+  selector: 'account-login',
   templateUrl: 'account-login.html'
 })
 export class AccountLoginPage {
 
   constructor(public nav: NavController, public navParams: NavParams) {}
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad AccountLoginPage');
+  viewCheck(): void{
+   this.nav.push(AccountCheckPage);
+   console.log("passou")
   }
 
 }
