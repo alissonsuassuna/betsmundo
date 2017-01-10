@@ -77,3 +77,10 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+
+button[icon-right] {
+  &> span.button-inner {
+    justify-content: space-between;
+  }
+}

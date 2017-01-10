@@ -19,7 +19,6 @@ export class AccountLoginPage {
 
   viewCheck(): void{
    this.nav.push(AccountCheckPage);
-   console.log("passou")
   }
 
 }

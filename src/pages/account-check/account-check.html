@@ -1,22 +1,25 @@
 <ion-content padding>
-   <div padding class="body">
-      <ion-row margin-botton>
-        <ion-col margin-botton>
-          <img src="assets/images/login.png" />
-        </ion-col>
-      </ion-row>
-      <ion-item>
-        <ion-input placeholder="Digite o código do cupom"></ion-input>
-      </ion-item>
+  <div padding class="body">
+    <ion-row margin-botton>
+      <ion-col margin-botton>
+        <img src="assets/images/login.png" />
+      </ion-col>
+    </ion-row>
+    <ion-item>
+      <ion-input placeholder="Digite o código do cupom"></ion-input>
+    </ion-item>
 
-      <button margin-top full ion-button icon-right color="dark">
-        Capturar com a camera
+    <button margin-top full ion-button icon-right color="dark">
+      Capturar com a camera
       <ion-icon name="camera"></ion-icon>
-      </button>
-      <button margin-top full ion-button icon-right color="blue"> 
-        Consultar aposta
-      <ion-icon name="md-checkmark"></ion-icon>
-      </button>
-      <button margin-top full ion-button full clear color="blue" (click)="viewCamb()">Entrar como Cambista</button>
-   </div>
+    </button>
+    <button margin-top full ion-button icon-right color="blue">
+      Consultar aposta
+      <ion-icon name="search"></ion-icon>
+    </button>
+    <button margin-top full ion-button full clear 
+      color="blue" (click)="viewCamb()">
+      Entrar como Cambista
+    </button>
+  </div>
 </ion-content>
