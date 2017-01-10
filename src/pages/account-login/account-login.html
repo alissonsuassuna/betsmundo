@@ -1,31 +1,37 @@
 <ion-content margin-top>
- 
+
   <div padding margin-top>
-  
-      <ion-row>
-        <ion-col>
-          <img src="assets/images/login.png" />
-        </ion-col>
-      </ion-row>
-  
-      <ion-row>
-        <ion-col>
-            <ion-item>
-              <ion-input placeholder="Nome do Usuário"></ion-input>
-            </ion-item>  
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col>
-            <ion-item>
-              <ion-input placeholder="Digite a Senha"></ion-input>
-            </ion-item>  
-        </ion-col>
-      </ion-row>
-  
-      <button padding ion-button icon-right outline color="blue">Limpar</button> 
-      
-      <button ion-button icon-left outline color="dark">Entrar</button>
+
+    <ion-row>
+      <ion-col>
+        <img src="assets/images/login.png" />
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-input placeholder="Nome do Usuário"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-input placeholder="Digite a Senha"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <button block padding ion-button icon-right outline color="dark">Limpar</button> 
+      </ion-col>
+      <ion-col>
+        <button block ion-button icon-left outline color="blue">Entrar</button>
+      </ion-col>
+    </ion-row>
+
   </div>
-    <button full ion-button full clear color="blue" (click)="viewCheck()">Consultar Bilhete</button>
+  <button full ion-button full clear color="blue" (click)="viewCheck()">Consultar Bilhete</button>
 </ion-content>
