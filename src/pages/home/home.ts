@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
-
-import { NavController } from 'ionic-angular';
+import { JogosPage } from '../jogos/jogos';
+import { BilhetePage } from '../bilhete/bilhete';
+import { ApostasPage } from '../apostas/apostas';
+import { OpcoesPage } from '../opcoes/opcoes';
 
 @Component({
   selector: 'page-home',
@@ -8,8 +10,12 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
-    
-  }
+  tab1Root: any = JogosPage;
+  tab2Root: any = BilhetePage;
+  tab3Root: any = ApostasPage;
+  tab4Root: any = OpcoesPage;
 
+  constructor(){
+
+  }
 }
