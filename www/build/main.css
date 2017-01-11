@@ -24432,3 +24432,12 @@ page-login-page ion-icon .icon1 {
   display: block;
   position: relative;
 }
+
+page-jogos div .buttons {
+  display: block;
+  position: relative;
+}
+
+page-jogos div .buttons {
+  right: 50px;
+}
