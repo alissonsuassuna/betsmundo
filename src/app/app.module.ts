@@ -8,8 +8,8 @@ import { AccountLoginPage } from '../pages/account-login/account-login';
 
 import { TabGamesPage } from '../pages/tab-games/tab-games';
 import { TabTicketsPage } from '../pages/tab-tickets/tab-tickets';
-import { ApostasPage } from '../pages/apostas/apostas';
-import { OpcoesPage } from '../pages/opcoes/opcoes';
+import { TabCouponPage } from '../pages/tab-coupon/tab-coupon';
+import { TabConfigPage } from '../pages/tab-config/tab-config';
 
 
 @NgModule({
@@ -20,8 +20,8 @@ import { OpcoesPage } from '../pages/opcoes/opcoes';
     AccountLoginPage,
     TabGamesPage,
     TabTicketsPage,
-    ApostasPage,
-    OpcoesPage
+    TabCouponPage,
+    TabConfigPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -34,8 +34,8 @@ import { OpcoesPage } from '../pages/opcoes/opcoes';
     AccountLoginPage,
     TabGamesPage,
     TabTicketsPage,
-    ApostasPage,
-    OpcoesPage
+    TabCouponPage,
+    TabConfigPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
