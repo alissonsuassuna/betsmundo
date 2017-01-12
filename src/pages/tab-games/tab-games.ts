@@ -1,22 +1,21 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-/*
-  Generated class for the Jogos page.
+import { AccountCheckPage } from '../account-check/account-check';
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-tab-games',
   templateUrl: 'tab-games.html'
 })
 export class TabGamesPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public nav: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad TabGamesPage');
+  }
+  logout(): void{
+    this.nav.push(AccountCheckPage);
   }
 
 }
