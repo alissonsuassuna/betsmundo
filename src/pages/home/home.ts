@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { JogosPage } from '../jogos/jogos';
-import { BilhetePage } from '../bilhete/bilhete';
+
+import { TabGamesPage } from '../tab-games/tab-games';
+import { TabTicketsPage } from '../tab-tickets/tab-tickets';
 import { ApostasPage } from '../apostas/apostas';
 import { OpcoesPage } from '../opcoes/opcoes';
 
@@ -10,8 +11,8 @@ import { OpcoesPage } from '../opcoes/opcoes';
 })
 export class HomePage {
 
-  tab1Root: any = JogosPage;
-  tab2Root: any = BilhetePage;
+  tab1Root: any = TabGamesPage;
+  tab2Root: any = TabTicketsPage;
   tab3Root: any = ApostasPage;
   tab4Root: any = OpcoesPage;
 

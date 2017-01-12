@@ -4764,11 +4764,11 @@ button[icon-right] > span.button-inner {
   justify-content: space-between;
 }
 
-page-games ion-header ion-input {
+page-tab-games ion-header ion-input {
   color: white !important;
 }
 
-page-games ion-header ion-input ::-webkit-input-placeholder {
+page-tab-games ion-header ion-input ::-webkit-input-placeholder {
   color: white !important;
 }
 
@@ -24555,10 +24555,10 @@ page-login-page ion-icon .icon1 {
   position: relative;
 }
 
-page-games ion-header ion-input {
+page-tab-games ion-header ion-input {
   color: white !important;
 }
 
-page-games ion-header ion-input ::-webkit-input-placeholder {
+page-tab-games ion-header ion-input ::-webkit-input-placeholder {
   color: white !important;
 }

@@ -6,8 +6,8 @@ import { HomePage } from '../pages/home/home';
 import { AccountCheckPage } from '../pages/account-check/account-check';
 import { AccountLoginPage } from '../pages/account-login/account-login';
 
-import { JogosPage } from '../pages/jogos/jogos';
-import { BilhetePage } from '../pages/bilhete/bilhete';
+import { TabGamesPage } from '../pages/tab-games/tab-games';
+import { TabTicketsPage } from '../pages/tab-tickets/tab-tickets';
 import { ApostasPage } from '../pages/apostas/apostas';
 import { OpcoesPage } from '../pages/opcoes/opcoes';
 
