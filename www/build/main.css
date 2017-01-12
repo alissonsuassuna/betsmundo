@@ -4765,11 +4765,12 @@ button[icon-right] > span.button-inner {
 }
 
 page-tab-games ion-header ion-input {
-  color: white !important;
+  color: black !important;
+  background-color: white !important;
 }
 
 page-tab-games ion-header ion-input ::-webkit-input-placeholder {
-  color: white !important;
+  color: grey !important;
 }
 
 ion-action-sheet {
@@ -24556,9 +24557,10 @@ page-login-page ion-icon .icon1 {
 }
 
 page-tab-games ion-header ion-input {
-  color: white !important;
+  color: black !important;
+  background-color: white !important;
 }
 
 page-tab-games ion-header ion-input ::-webkit-input-placeholder {
-  color: white !important;
+  color: grey !important;
 }

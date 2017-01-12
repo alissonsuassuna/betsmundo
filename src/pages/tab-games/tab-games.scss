@@ -1,9 +1,10 @@
 page-tab-games {
     ion-header {
         ion-input {
-            color: white !important;
+            color: black !important;
+            background-color: white !important;
                     ::-webkit-input-placeholder {
-                color: white !important;
+                color:grey !important;
         }
 
         }
