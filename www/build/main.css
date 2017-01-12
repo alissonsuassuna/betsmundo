@@ -4764,6 +4764,14 @@ button[icon-right] > span.button-inner {
   justify-content: space-between;
 }
 
+page-games ion-header ion-input {
+  color: white !important;
+}
+
+page-games ion-header ion-input ::-webkit-input-placeholder {
+  color: white !important;
+}
+
 ion-action-sheet {
   position: absolute;
   top: 0;
@@ -24545,4 +24553,12 @@ page-login-page div .body {
 page-login-page ion-icon .icon1 {
   display: block;
   position: relative;
+}
+
+page-games ion-header ion-input {
+  color: white !important;
+}
+
+page-games ion-header ion-input ::-webkit-input-placeholder {
+  color: white !important;
 }

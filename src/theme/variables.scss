@@ -78,9 +78,7 @@ $green:#12AD6C;
 @import "roboto";
 @import "noto-sans";
 
+@import 'components/global';
+@import 'components/forms';
 
-button[icon-right] {
-  &> span.button-inner {
-    justify-content: space-between;
-  }
-}
+@import '../pages/jogos/games'

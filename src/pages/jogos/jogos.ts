@@ -8,7 +8,7 @@ import { NavController, NavParams } from 'ionic-angular';
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'page-jogos',
+  selector: 'page-games',
   templateUrl: 'jogos.html'
 })
 export class JogosPage {

@@ -1,0 +1,5 @@
+button[icon-right] {
+  &> span.button-inner {
+    justify-content: space-between;
+  }
+}
